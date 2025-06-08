@@ -1,2 +1,0 @@
-*Exponent-2.31.2.apk filter=lfs diff=lfs merge=lfs -text
-*.apk filter=lfs diff=lfs merge=lfs -text

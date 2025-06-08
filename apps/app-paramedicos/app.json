@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "AmbuLink",
+    "slug": "ambulink",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogoApp.png",
+    "userInterfaceStyle": "white",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app requires access to your location to show your current position."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "package": "com.joshua.ambulink"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
